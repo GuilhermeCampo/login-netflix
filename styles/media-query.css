@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+@media screen and (min-width:650px)
+ /* and (max-width:1200px) */
+  {
+/* 
+imagem de fundo: 
+https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/22d8689a-876a-4fe2-ba70-4fe87a7a3c08/BR-pt-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_3db1e41c-85ac-4922-82ce-7430800e218e_medium.jpg
+*/
+
+    body{
+        background:black url(https://assets.nflxext.com/ffe/siteui/vlv3/335ddde7-3955-499c-b4cc-ca2eb7e1ae71/22d8689a-876a-4fe2-ba70-4fe87a7a3c08/BR-pt-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_3db1e41c-85ac-4922-82ce-7430800e218e_medium.jpg) center center;
+        
+    }
+
+    
+    main{
+        width: 500px;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.753);
+        border-radius: 4px 4px 0 0;
+        border-bottom: none;
+        
+        
+    }
+
+    footer{
+        background-color: black;
+    }
+
+    footer ul{
+       columns: 3;
+    }
+    
+}

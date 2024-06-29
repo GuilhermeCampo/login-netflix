@@ -1,90 +1,169 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: 'Segoe UI', serif;
-    src: url(../assets/fonts/segoe-ui.otf) format('opentype');
+  font-family: "Segoe UI", serif;
+  src: url(../assets/fonts/segoe-ui.otf) format("opentype");
 }
 
-:root{
-    --fonte: 'Segoe UI', sans-serif;
+:root {
+  --fonte: "Segoe UI", sans-serif;
 }
 
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    font-family: var(--fonte);
-    color: white;
-    background-color: black;
+body {
+  font-family: var(--fonte);
+  color: white;
+  background-color: black;
 }
 
-header img{
-    width: 100px;
-    margin: 15px 20px;
+header img {
+  width: 100px;
+  margin: 15px 20px;
 }
 
-main{
-    padding: 15px;
+main {
+  padding: 15px;
+ border-bottom: 1px solid gray;
 }
 
-main h1{
-    font-size: 1.9em;
-    margin-bottom: 20px;
+main h1 {
+  font-size: 1.9em;
+  margin-bottom: 20px;
 }
-form{
-    text-align: center;
+form {
+  text-align: center;
+  
 }
 
-.input input{
-    text-indent: 20px;
-    width: 100%;
-    height: 55px;
-    margin: 8px 0;
-    background-color: rgb(19, 19, 19);
-    border: 1px solid gray;
-    border-radius: 3px;
+.input input {
+  text-indent: 20px;
+  width: 100%;
+  height: 55px;
+  margin: 8px 0;
+  background-color: rgb(19, 19, 19);
+  border: 1px solid gray;
+  border-radius: 3px;
+
+  font-weight: 600;
+  font-size: 1em;
+}
+
+#button {
+  width: 100%;
+  height: 40px;
+  background-color: #df0a15;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+#button:hover {
+  background-color: #c11119;
+  cursor: pointer;
+}
+
+#acess {
+  display: block;
+  padding: 9px;
+  font-weight: bold;
+  width: 100%;
+  text-decoration: none;
+  color: rgb(226, 226, 226);
+  height: 40px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+#fpass{
+    margin: 10px 0;
     
-    font-weight: 600;
-    font-size: 1em;
 }
 
-#button{
-    width: 100%;
-    height: 40px;
-    background-color: #df0a15;
-    border: none;
-    color: white;
-    border-radius: 3px;
-    font-size: .9em;
-    font-weight: bold;
-    margin-top: 5px;
-    
-}
-
-#button:hover{
-    background-color: #C11119;
-    cursor: pointer;
-}
-
-#acess{
-    display: block;
-    padding: 9px;
-    font-weight: bold;
-    width: 100%;
+#fpass > a {
     text-decoration: none;
-    color: rgb(226, 226, 226);
-    height: 40px;
-    background-color: rgb(66, 66, 66);
-    border-radius: 3px;
-    font-size: .9em;
+    color: white;
+}
 
+#fpass > a:hover{
+    color: rgb(177, 177, 177);
+    text-decoration: underline;
+}
+
+#iremember{
+    margin: 10px 0;
+}
+
+.check{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
 
 }
 
+.captcha{
+    color: gray;
+    font-size: .8em;
+    margin-bottom: 100px;
+}
 
+.captcha a{
+    text-decoration: none;
+    color: rgb(92, 92, 255);
+}
+.captcha a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    color: rgb(185, 185, 185);
+    padding: 25px;
+}
+
+footer h3{
+    font-size: 1em;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+
+footer ul{
+    list-style-type: none;
+    columns: 2;
+    margin-bottom: 10px;
+
+    
+}
+
+footer li{
+    padding: 10px;
+}
+
+footer a{
+    color: rgb(192, 192, 192);
+    font-size: .9em;
+}
+
+footer select{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 3px;
+}
 

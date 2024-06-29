@@ -21,7 +21,7 @@
     </header>
 
     <main>
-      <form action="">
+      <form action="" method="post">
         <h1 style="text-align: left">Entrar</h1>
 
         <div class="input">
@@ -37,22 +37,28 @@
         </div>
         <input type="submit" value="Entrar" id="button" />
 
-        <p style="font-size: 1.4em; color: gray; margin: 10px">ou</p>
+        <p style="font-size: 1em; color: gray; margin: 10px">OU</p>
 
         <a href="#" id="acess">Usar um código de acesso</a>
 
-        <a href="#">Esqueceu a senha?</a>
+        <p id="fpass"><a href="#" >Esqueceu a senha?</a></p>
+
+        <div class="check">
+          <input type="checkbox" name="remember" id="iremember" value="Lembrar" checked >
+          <label for="iremember" id="lremember"> Lembre-se de mim</label>
+        </div>
       </form>
 
-      <p>Novo por aqui? <a href="#">Assine agora.</a></p>
-      <p>
+      <p style="color: gray; margin-bottom:20px;">Novo por aqui? <a href="#" class="link" >Assine agora.</a></p>
+      <p class="captcha">
         Esta página é protegida pelo Google reCAPTCHA para garantir que você não
         é um robô. <a href="#">Saiba mais.</a>
       </p>
     </main>
+    
 
     <footer>
-      <p>Dúvidas? Ligue 0800 591 2876</p>
+      <h3>Dúvidas? Ligue 0800 591 2876</h3>
 
       <ul>
         <li><a href="#">Perguntas frequentes</a></li>
